@@ -3,6 +3,7 @@ import profilepicdemo from "../../../assets/profile-demo (1).jpeg";
 import profilepic2 from "../../../assets/profilepic4.avif";
 import GCSLogo from "../../../assets/GCSLogo.png";
 import { members } from "../../../constants";
+import { Puranjay } from "../../../utils";
 
 const GCSTeam = () => {
   return (
@@ -12,34 +13,14 @@ const GCSTeam = () => {
           GCS
           <img src={GCSLogo} alt="GCSLogo" className="size-16" />
         </legend>
-        <div>
-          {members.map((items, i) =>
-            items.field == "Ground Station" ? (
-              items.lead == true ? (
-                <div className="lead-namebox" key={i}>
-                  <NameSectionTeams
-                    img={items.img}
-                    name={items.name}
-                    field={items.field + "-Lead"}
-                    linkedin={items.linkedin}
-                    email={items.email}
-                  />
-                </div>
-              ) : (
-                <div className="member-namebox" key={i}>
-                  <NameSectionTeams
-                    img={items.img}
-                    name={items.name}
-                    field={items.field}
-                    linkedin={items.linkedin}
-                    email={items.email}
-                  />
-                </div>
-              )
-            ) : (
-              <div key={i}></div>
-            ),
-          )}
+        <div className="w-full flex items-center justify-center">
+          <NameSectionTeams
+            name="Puranjay Kaushik"
+            img={Puranjay}
+            email="punnukaushik29@gmail.com"
+            field="GCS Lead"
+            linkedin="https://www.linkedin.com/in/puranjay-kaushik-2718042b9/"
+          />
         </div>
       </fieldset>
     </div>

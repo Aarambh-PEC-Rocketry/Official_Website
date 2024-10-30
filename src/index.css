@@ -42,7 +42,7 @@ body {
 .title {
   @apply bg-gradient-to-r from-[#510e85] to-[#c98adf] bg-clip-text text-transparent;
   font-family: "Source Code Pro";
-  font-size: 9rem;
+  font-size: 8rem;
   font-weight: 900;
   margin: 1rem;
 }

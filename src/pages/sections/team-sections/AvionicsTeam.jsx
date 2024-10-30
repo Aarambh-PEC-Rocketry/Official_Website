@@ -4,8 +4,7 @@ import profilepicdemo from "../../../assets/profile-demo (1).jpeg";
 import profilepic3 from "../../../assets/profilepic3.avif";
 import AvionicsLogo from "../../../assets/AvionicsLogo.png";
 import { members } from "../../../constants";
-import LeadFilter from "../../../utils/lead-filter";
-import MemberMapper from "../../../utils/MemberMapper";
+import { Puranjot } from "../../../utils";
 const AvionicsTeam = (props) => {
   return (
     <div className="namebox">
@@ -14,11 +13,14 @@ const AvionicsTeam = (props) => {
           Avionics
           <img src={AvionicsLogo} alt="AvionicsLogo" className="size-16" />
         </legend>
-        <div className="lead-namebox">
-          <LeadFilter field="Avionics" />
-        </div>
-        <div className="member-namebox">
-          <MemberMapper field="Avionics" />
+        <div className="w-full flex items-center justify-center ">
+          <NameSectionTeams
+            name="Puranjot Singh Naga"
+            img={Puranjot}
+            email="puranjotsinghnaga@gmail.com"
+            field="Avionics Lead"
+            linkedin="https://www.linkedin.com/in/puranjot-singh-92a55326b/"
+          />
         </div>
       </fieldset>
     </div>

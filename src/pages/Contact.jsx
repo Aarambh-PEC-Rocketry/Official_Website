@@ -1,10 +1,9 @@
 import React from "react";
 import NameSectionTeams from "../components/NameSectionTeams";
-import profilePic from "../assets/profile-pic-2.jpg";
-import profilePic2 from "../assets/profilepic3.webp";
 import profilePicWomen from "../assets/profilepic-women.webp";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { Aditya, Puranjay, Puranjot } from "../utils";
 const Contact = () => {
   const tl = gsap.timeline();
   useGSAP(() => {
@@ -31,7 +30,7 @@ const Contact = () => {
       <div className="w-full flex items-center justify-evenly">
         <NameSectionTeams
           className="gsapimg"
-          img={profilePic}
+          img={Aditya}
           name="Aditya Vinod Ingle"
           field="Team Lead"
           email="adityaingle@gmail.com"
@@ -39,7 +38,7 @@ const Contact = () => {
 
         <NameSectionTeams
           className="gsapimg"
-          img={profilePic2}
+          img={Puranjot}
           name="Puranjot Singh Naga"
           field="Website Lead"
           email="puranjotsinghnaga@gmail.com"

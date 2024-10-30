@@ -38,6 +38,7 @@ export const projects = [
 
 export const members = [
   {
+    id: 0,
     name: "Puranjot Singh Naga",
     linkedin: "https://www.linkedin.com/in/puranjot-singh-92a55326b/",
     email: "puranjotsinghnaga@gmail.com",
@@ -46,6 +47,7 @@ export const members = [
     position: "Lead",
   },
   {
+    id: 1,
     name: "Puranjay Kaushik",
     linkedin: "https://www.linkedin.com/in/puranjay-kaushik-2718042b9/",
     email: "punnukaushik29@gmail.com",
@@ -54,6 +56,7 @@ export const members = [
     img: Puranjay,
   },
   {
+    id: 2,
     name: "Aditya Vinod Ingle",
     linkedin: "",
     email: "adityaingle932@gmail.com",
@@ -62,6 +65,7 @@ export const members = [
     position: "Team Head",
   },
   {
+    id: 3,
     name: "Rahul Bansal",
     linkedin:
       "https://www.linkedin.com/in/rahul-bansal-61971928a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -71,6 +75,7 @@ export const members = [
     position: "Sub-Head",
   },
   {
+    id: 4,
     name: "Varun Choudhary",
     linkedin:
       "https://www.linkedin.com/in/varun-choudhary-4491582b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -80,6 +85,7 @@ export const members = [
     position: "Sub-Head",
   },
   {
+    id: 5,
     name: "Sathvika Balasubramanian",
     linkedin: "linkedin.com/in/sathvika-bala",
     email: "balusathu@hotmail.com",
@@ -88,6 +94,7 @@ export const members = [
     position: "Lead",
   },
   {
+    id: 6,
     name: "Naman Jain",
     linkedin:
       "https://www.linkedin.com/in/naman-jain-526b782b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -97,6 +104,7 @@ export const members = [
     position: "Sub-Head",
   },
   {
+    id: 7,
     name: "Adu sneha bai",
     linkedin: "https://www.linkedin.com/in/adu-sneha-bai-9b592b211",
     email: "snehabai2004@gmail.com",
@@ -105,6 +113,7 @@ export const members = [
     position: "Sub-Head",
   },
   {
+    id: 8,
     name: "Ketan Jain",
     linkedin: "https://www.linkedin.com/in/ketan-jain-71a392257",
     email: "ketanjain1124@gmail.com",
@@ -113,6 +122,7 @@ export const members = [
     position: "Sub-Head",
   },
   {
+    id: 9,
     name: "Koysha Shrimali",
     linkedin: "https://www.linkedin.com/in/koysha-shrimali-810823270",
     email: "koysha.shrimali@gmail.com",
@@ -121,6 +131,7 @@ export const members = [
     position: "Sub-Head",
   },
   {
+    id: 10,
     name: "Suneel Kumar Deen",
     linkedin: "https://www.linkedin.com/in/suneel-deen",
     email: "suneelshivpur@gmail.com",
@@ -129,6 +140,7 @@ export const members = [
     position: "Lead",
   },
   {
+    id: 11,
     name: "Kartik Kumar",
     linkedin: "https://www.linkedin.com/in/kartik-kumar-8b4402259/",
     email: "kartikkumaroctober2002@gmail.com",
@@ -137,6 +149,7 @@ export const members = [
     position: "Lead",
   },
   {
+    id: 12,
     name: "Shambhavi Tiwari",
     linkedin: "www.linkedin.com/in/shambhavi-tiwari-6816322b9",
     email: "shambhavi.tiwari53@gmail.com",
@@ -145,6 +158,7 @@ export const members = [
     position: "Sub-Head",
   },
   {
+    id: 13,
     name: "Madhav Saraswat",
     linkedin: "https://www.linkedin.com/in/madhav-saraswat-724a7426b",
     email: "madhavsaraswatt@gmail.com",
@@ -153,6 +167,7 @@ export const members = [
     position: "Sub-Head",
   },
   {
+    id: 14,
     name: "Pranav Mahajan",
     linkedin: "https://www.linkedin.com/in/pranav-mahajan-8a9471265/",
     email: "hellopranav1039@gmail.com",
@@ -161,6 +176,7 @@ export const members = [
     position: "Sub-Head",
   },
   {
+    id: 15,
     name: "Astha Patel",
     linkedin:
       "https://www.linkedin.com/in/astha-patel-2588a2271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -170,6 +186,7 @@ export const members = [
     position: "Sub-Head",
   },
   {
+    id: 16,
     name: "Kesia Ajith",
     linkedin: "https://www.linkedin.com/in/kesia-ajith-aero",
     email: "kesiaajith3@gmail.com",
@@ -178,6 +195,7 @@ export const members = [
     position: "Lead",
   },
   {
+    id: 17,
     name: "Viraj Patel",
     linkedin: "www.linkedin.com/in/viraj-patel-99701b168",
     email: "patelviraj944@gmail.com",

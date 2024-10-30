@@ -7,6 +7,7 @@ import StructureTeam from "./sections/team-sections/StructureTeam";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import { useGSAP } from "@gsap/react";
+import SimulationsTeam from "./sections/team-sections/SimulationsTeam";
 
 gsap.registerPlugin(ScrollTrigger);
 const Team = () => {
@@ -26,6 +27,7 @@ const Team = () => {
       <RecoveryTeam />
       <PropulsionTeam />
       <StructureTeam />
+      <SimulationsTeam />
     </div>
   );
 };
